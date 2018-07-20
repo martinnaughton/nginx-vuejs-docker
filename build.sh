@@ -1,7 +1,7 @@
 #!/bin/bash
 
-IMAGE_NAME=
-CONTAINER_NAME=
+IMAGE_NAME=$1
+CONTAINER_NAME=$2
 
 sudo docker stop $CONTAINER_NAME 
 sudo docker rm $CONTAINER_NAME
